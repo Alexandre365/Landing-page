@@ -1,0 +1,40 @@
+section{
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 260%;
+}
+p{
+    width: min(500px,100%);
+    margin: 10px 0px;
+}
+#ft-Car{
+    display: none;
+}
+
+@media only screen and (min-width: 1140px)  {
+    section{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+ 
+    .Txt{
+        width:80%;
+    }
+    h1{
+        font-size: 350%;
+    }
+    .Txt button{
+        width: 70%;
+    }
+    #ft-Car{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #ft-Car img{
+        width: 500px;
+    }
+}

@@ -1,0 +1,110 @@
+.Modelos{
+    background-color:#17202F ;
+    color: white;
+    width: 100%;
+    padding: 30px 0px;
+}
+.txtModelos > h2{
+    color: white;
+}
+.txtModelos > p{
+    color: rgb(207, 210, 212);
+}
+
+.conteiner-Modelos{
+    flex-direction: column;
+}
+
+.HeaderModelos div{
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* IMG do Modelos */
+.imgModelos{
+    display: none;
+}
+
+/* Dados */
+.DadosModelos{
+    margin-top: 30px;
+}
+.DadosModelos h3{
+    color: white;
+}
+.TxtDadosModelos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Card {
+    display: flex;
+}
+.Card > h3{
+    color: white;
+    width: 100%;
+}
+.Card > p{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.progress{
+    display: none;
+}
+
+@media only screen and (min-width: 1140px)  {
+
+    .HeaderModelos{
+        width: 100%;
+        display: flex;
+
+    }
+
+    /* IMG do Modelos */
+    .imgModelos{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 50px;
+        
+    }
+
+    /* Dados*/
+    .DadosModelos{
+        display: flex;
+    }
+    .DadosModelos div{
+        width: 100%;
+    }
+    .Card{
+        align-items: center;
+    } 
+    .Card > p{
+        display: flex;
+        justify-content: center;
+    }
+    .Card_Titulo p{
+        justify-content: flex-end;
+    }
+    .progress{
+        display: flex;
+        flex-direction: column;
+    }
+    .progress p{
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: 5px;
+    }
+    .progress progress{
+
+        position: relative;
+        bottom: 5px;
+        width: 100%;
+        height: 30px;
+    }
+}

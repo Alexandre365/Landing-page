@@ -1,0 +1,23 @@
+.conteinerSeguro{
+    display: flex;
+    flex-direction: column;
+}
+.mainSeguro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainSeguro div{
+    flex: 1 1 400px;
+}
+
+@media only screen and (max-width: 300px)  {
+    .mainSeguro div{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .mainSeguro div > .txt{
+        padding: 0;
+        margin: 0;
+    }
+}

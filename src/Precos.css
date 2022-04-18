@@ -1,0 +1,59 @@
+.Prec{
+    width: 100%;
+}
+.conteiner{
+    margin: 0px 20px;
+}
+
+.conteiner-flexbox{
+    flex-direction: column;
+}
+
+.HeaderPrecos div{
+    width: 100%;
+}
+.Flexbox{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Flexbox div{
+    flex: 1 1 200px;
+}
+.Preco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.List-{
+    flex-direction: column;
+    list-style-type: none;
+}
+.List- li{
+    display: flex;
+}
+li > img{
+    padding-right: 10px;
+    color: black;
+}
+
+h2{
+    font-size: 30px;
+    
+}
+
+
+
+@media only screen and (min-width: 1140px)  {
+    .Prec{
+        height: 400px;
+    }
+    .HeaderPrecos{
+        width: 100%;
+        display: flex;
+
+    }
+    #Select{
+        width: 30%;
+    }
+}
